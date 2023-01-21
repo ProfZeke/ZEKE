@@ -1,0 +1,277 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Georgia;
+}
+body{
+    width: 100%;
+    height: 100vh;
+    background-image: linear-gradient(rgba(0,0,0,0.75),rgba(0,0,0,0.75)),url(Mixer.jpg);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+.navbar{
+    width: 85%;
+    margin: auto;
+    padding: 35px 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.logo{
+    width: 120px;
+    cursor: pointer;
+}
+.navbar ul li{
+    list-style: none;
+    display: inline-block;
+    margin: 0 20px;
+    position: relative;
+}
+.navbar ul li a{
+    text-decoration: none;
+    color: antiquewhite;
+    text-transform: uppercase;
+}
+.navbar ul li::after{
+    content: '';
+    height: 3px;
+    width: 0;
+    background: cadetblue;
+    position: absolute;
+    left: 0;
+    bottom: -10px;
+    transition: 0.8s;
+}
+.navbar ul li:hover:after{
+    width: 100%;
+}
+.brian{
+    width: 80%;
+    margin: auto;
+    padding: 100px 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.content{
+    width: 70%;
+    position: absolute;
+    top: 38%;
+    right: 0px;
+    transform: translateY(-38);
+    text-align: center;
+    color: antiquewhite;
+}
+.content h1{
+    font-size: 40px;
+}
+.content p{
+    margin: 20px auto;
+    font-weight: 100;
+    line-height: 5px;
+}
+button{
+    width: 200px;
+    padding: 15px 0;
+    text-align: center;
+    margin: 20px 10px;
+    border-radius: 25px;
+    font-weight: bold;
+    border: 2px solid cadetblue;
+    background: transparent;
+    color: antiquewhite;
+    cursor: pointer;
+    position: relative;
+    overflow: hidden;
+}
+
+.laman{
+    width: 100%;
+    position: absolute;
+    top: 20%;
+    right: 0px;
+    text-align: center;
+    color: antiquewhite;
+}
+.laman p{
+    font-size: 36;
+    font-weight: bold;
+}
+.laman e{
+    width: 80%;
+    margin: auto;
+    padding: 100px 0;
+    display: flex;
+    align-items: center;
+}
+.laman f{
+    width: 40%;
+    position: absolute;
+    top: 225;
+    right: 15%;
+    text-align: center;
+    color: antiquewhite;
+    margin: 20px auto;
+    font-weight: 100;
+    font-size: 18;
+    line-height: 50px;
+}
+.laman g{
+    width: 100;
+    position: absolute;
+    right: 30%;
+    margin: auto;
+    padding: 100px 0;
+    display: flex;
+    align-items: center;
+}
+.laman h{
+    width: 100%;
+    position: absolute;
+    top: 800;
+    right: 15%;
+    text-align: center;
+    color: antiquewhite;
+    margin: 20px auto;
+    font-weight: 100;
+    font-size: 24;
+    line-height: 50px;
+}
+.laman i{
+    width: 80%;
+    position: absolute;
+    right: 10%;
+    top: 1200;
+    text-align: center;
+    color: antiquewhite;
+    margin: 20px auto;
+    font-weight: 100;
+    font-size: 18;
+    font-style: normal;
+    line-height: 50px;
+}
+.laman j{
+    width: 100;
+    position: absolute;
+    top: 1400;
+    right: 88%;
+    margin: auto;
+    padding: 100px 0;
+    display: flex;
+    align-items: center;
+}
+.laman l{
+    width: 22%;
+    padding: 15px 0;
+    top: 2000;
+    right: 40%;
+    text-align: center;
+    font-weight: bold;
+    cursor: pointer;
+    position: absolute;
+}
+.bidyo aa{
+    width: 100%;
+    position: absolute;
+    top: 20%;
+    right: 0px;
+    text-align: center;
+    color: antiquewhite;
+    font-size: 36;
+    font-weight: bold;
+}
+.bidyo ab{
+    width:90%;
+    margin: auto;
+    padding: 100px 0;
+    display: flex;
+    align-items: center;
+}
+.bidyo ac{
+    width: 50%;
+    position: absolute;
+    top: 380;
+    left: 50%;
+    text-align: center;
+    color: antiquewhite;
+    font-size: 24;
+    font-weight: bold;
+    font-style: oblique;
+}
+.bidyo ad{
+    display: block;
+    margin: 5%;
+    position: absolute;
+    left: 38%;
+    top: 650;
+}
+.bidyo ae{
+    width: 50%;
+    position: absolute;
+    top: 900;
+    right: 55%;
+    text-align: center;
+    color: antiquewhite;
+    font-size: 24;
+    font-weight: bold;
+    font-style: oblique;
+}
+.bidyo af{
+    display: block;
+    margin: auto;
+    position: absolute;
+    right: 45%;
+    top: 1250;
+}
+.bidyo ag{
+    width: 40%;
+    position: absolute;
+    top: 1425;
+    left: 58%;
+    text-align: center;
+    color: antiquewhite;
+    font-size: 24;
+    font-weight: bold;
+    font-style: oblique;
+}
+.EFBI zz{
+    width: 20%;
+    padding: 15px 0;
+    top: 1800;
+    right: 40%;
+    color: antiquewhite;
+    text-align: center;
+    font-weight: bold;
+    cursor: pointer;
+    position: absolute;
+}
+.prodyus aaa{
+    width: 100%;
+    position: absolute;
+    top: 20%;
+    right: 0px;
+    text-align: center;
+    color: antiquewhite;
+    font-size: 36;
+    font-weight: bold;
+}
+.prodyus aab{
+    display: block;
+    margin: 5%;
+    position: absolute;
+    top: 150;
+    left: 5%;
+}
+.prodyus aac{
+    width: 50%;
+    position: absolute;
+    top: 380;
+    left: 45%;
+    text-align: center;
+    color: antiquewhite;
+    font-size: 24;
+    font-weight: bold;
+    font-style: oblique;
+}
